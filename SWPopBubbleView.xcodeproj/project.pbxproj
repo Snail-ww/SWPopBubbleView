@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07024EBD20CF54270003D16F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07024EBC20CF54270003D16F /* main.m */; };
+		07024EC020CF54270003D16F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07024EBF20CF54270003D16F /* AppDelegate.m */; };
+		07024EC320CF54270003D16F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07024EC220CF54270003D16F /* ViewController.m */; };
+		07024EC620CF54270003D16F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07024EC420CF54270003D16F /* Main.storyboard */; };
+		07024EC820CF54270003D16F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07024EC720CF54270003D16F /* Assets.xcassets */; };
+		07024ECB20CF54270003D16F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07024EC920CF54270003D16F /* LaunchScreen.storyboard */; };
+		07024ED620CF54270003D16F /* SWPopBubbleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07024ED520CF54270003D16F /* SWPopBubbleViewTests.m */; };
+		07024EE120CF54270003D16F /* SWPopBubbleViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07024EE020CF54270003D16F /* SWPopBubbleViewUITests.m */; };
+		07024EF020CF545A0003D16F /* SWPopBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07024EEF20CF545A0003D16F /* SWPopBubbleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07024ED220CF54270003D16F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07024EB020CF54270003D16F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07024EB720CF54270003D16F;
+			remoteInfo = SWPopBubbleView;
+		};
+		07024EDD20CF54270003D16F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07024EB020CF54270003D16F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07024EB720CF54270003D16F;
+			remoteInfo = SWPopBubbleView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07024EB820CF54270003D16F /* SWPopBubbleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWPopBubbleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07024EBC20CF54270003D16F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07024EBE20CF54270003D16F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07024EBF20CF54270003D16F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07024EC120CF54270003D16F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07024EC220CF54270003D16F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07024EC520CF54270003D16F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07024EC720CF54270003D16F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07024ECA20CF54270003D16F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07024ECC20CF54270003D16F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07024ED120CF54270003D16F /* SWPopBubbleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWPopBubbleViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07024ED520CF54270003D16F /* SWPopBubbleViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWPopBubbleViewTests.m; sourceTree = "<group>"; };
+		07024ED720CF54270003D16F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07024EDC20CF54270003D16F /* SWPopBubbleViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWPopBubbleViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07024EE020CF54270003D16F /* SWPopBubbleViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWPopBubbleViewUITests.m; sourceTree = "<group>"; };
+		07024EE220CF54270003D16F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07024EEE20CF545A0003D16F /* SWPopBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPopBubbleView.h; sourceTree = "<group>"; };
+		07024EEF20CF545A0003D16F /* SWPopBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPopBubbleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07024EB520CF54270003D16F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07024ECE20CF54270003D16F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07024ED920CF54270003D16F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07024EAF20CF54270003D16F = {
+			isa = PBXGroup;
+			children = (
+				07024EBA20CF54270003D16F /* SWPopBubbleView */,
+				07024ED420CF54270003D16F /* SWPopBubbleViewTests */,
+				07024EDF20CF54270003D16F /* SWPopBubbleViewUITests */,
+				07024EB920CF54270003D16F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07024EB920CF54270003D16F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07024EB820CF54270003D16F /* SWPopBubbleView.app */,
+				07024ED120CF54270003D16F /* SWPopBubbleViewTests.xctest */,
+				07024EDC20CF54270003D16F /* SWPopBubbleViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07024EBA20CF54270003D16F /* SWPopBubbleView */ = {
+			isa = PBXGroup;
+			children = (
+				07024EEE20CF545A0003D16F /* SWPopBubbleView.h */,
+				07024EEF20CF545A0003D16F /* SWPopBubbleView.m */,
+				07024EBE20CF54270003D16F /* AppDelegate.h */,
+				07024EBF20CF54270003D16F /* AppDelegate.m */,
+				07024EC120CF54270003D16F /* ViewController.h */,
+				07024EC220CF54270003D16F /* ViewController.m */,
+				07024EC420CF54270003D16F /* Main.storyboard */,
+				07024EC720CF54270003D16F /* Assets.xcassets */,
+				07024EC920CF54270003D16F /* LaunchScreen.storyboard */,
+				07024ECC20CF54270003D16F /* Info.plist */,
+				07024EBB20CF54270003D16F /* Supporting Files */,
+			);
+			path = SWPopBubbleView;
+			sourceTree = "<group>";
+		};
+		07024EBB20CF54270003D16F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07024EBC20CF54270003D16F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07024ED420CF54270003D16F /* SWPopBubbleViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				07024ED520CF54270003D16F /* SWPopBubbleViewTests.m */,
+				07024ED720CF54270003D16F /* Info.plist */,
+			);
+			path = SWPopBubbleViewTests;
+			sourceTree = "<group>";
+		};
+		07024EDF20CF54270003D16F /* SWPopBubbleViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07024EE020CF54270003D16F /* SWPopBubbleViewUITests.m */,
+				07024EE220CF54270003D16F /* Info.plist */,
+			);
+			path = SWPopBubbleViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07024EB720CF54270003D16F /* SWPopBubbleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07024EE520CF54270003D16F /* Build configuration list for PBXNativeTarget "SWPopBubbleView" */;
+			buildPhases = (
+				07024EB420CF54270003D16F /* Sources */,
+				07024EB520CF54270003D16F /* Frameworks */,
+				07024EB620CF54270003D16F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWPopBubbleView;
+			productName = SWPopBubbleView;
+			productReference = 07024EB820CF54270003D16F /* SWPopBubbleView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07024ED020CF54270003D16F /* SWPopBubbleViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07024EE820CF54270003D16F /* Build configuration list for PBXNativeTarget "SWPopBubbleViewTests" */;
+			buildPhases = (
+				07024ECD20CF54270003D16F /* Sources */,
+				07024ECE20CF54270003D16F /* Frameworks */,
+				07024ECF20CF54270003D16F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07024ED320CF54270003D16F /* PBXTargetDependency */,
+			);
+			name = SWPopBubbleViewTests;
+			productName = SWPopBubbleViewTests;
+			productReference = 07024ED120CF54270003D16F /* SWPopBubbleViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07024EDB20CF54270003D16F /* SWPopBubbleViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07024EEB20CF54270003D16F /* Build configuration list for PBXNativeTarget "SWPopBubbleViewUITests" */;
+			buildPhases = (
+				07024ED820CF54270003D16F /* Sources */,
+				07024ED920CF54270003D16F /* Frameworks */,
+				07024EDA20CF54270003D16F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07024EDE20CF54270003D16F /* PBXTargetDependency */,
+			);
+			name = SWPopBubbleViewUITests;
+			productName = SWPopBubbleViewUITests;
+			productReference = 07024EDC20CF54270003D16F /* SWPopBubbleViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07024EB020CF54270003D16F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Snail;
+				TargetAttributes = {
+					07024EB720CF54270003D16F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = P6247WX9N5;
+						ProvisioningStyle = Automatic;
+					};
+					07024ED020CF54270003D16F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07024EB720CF54270003D16F;
+					};
+					07024EDB20CF54270003D16F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07024EB720CF54270003D16F;
+					};
+				};
+			};
+			buildConfigurationList = 07024EB320CF54270003D16F /* Build configuration list for PBXProject "SWPopBubbleView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07024EAF20CF54270003D16F;
+			productRefGroup = 07024EB920CF54270003D16F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07024EB720CF54270003D16F /* SWPopBubbleView */,
+				07024ED020CF54270003D16F /* SWPopBubbleViewTests */,
+				07024EDB20CF54270003D16F /* SWPopBubbleViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07024EB620CF54270003D16F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07024ECB20CF54270003D16F /* LaunchScreen.storyboard in Resources */,
+				07024EC820CF54270003D16F /* Assets.xcassets in Resources */,
+				07024EC620CF54270003D16F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07024ECF20CF54270003D16F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07024EDA20CF54270003D16F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07024EB420CF54270003D16F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07024EF020CF545A0003D16F /* SWPopBubbleView.m in Sources */,
+				07024EC320CF54270003D16F /* ViewController.m in Sources */,
+				07024EC020CF54270003D16F /* AppDelegate.m in Sources */,
+				07024EBD20CF54270003D16F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07024ECD20CF54270003D16F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07024ED620CF54270003D16F /* SWPopBubbleViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07024ED820CF54270003D16F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07024EE120CF54270003D16F /* SWPopBubbleViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07024ED320CF54270003D16F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07024EB720CF54270003D16F /* SWPopBubbleView */;
+			targetProxy = 07024ED220CF54270003D16F /* PBXContainerItemProxy */;
+		};
+		07024EDE20CF54270003D16F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07024EB720CF54270003D16F /* SWPopBubbleView */;
+			targetProxy = 07024EDD20CF54270003D16F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07024EC420CF54270003D16F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07024EC520CF54270003D16F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07024EC920CF54270003D16F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07024ECA20CF54270003D16F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07024EE320CF54270003D16F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07024EE420CF54270003D16F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07024EE620CF54270003D16F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P6247WX9N5;
+				INFOPLIST_FILE = SWPopBubbleView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Snail.SWPopBubbleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07024EE720CF54270003D16F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P6247WX9N5;
+				INFOPLIST_FILE = SWPopBubbleView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Snail.SWPopBubbleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07024EE920CF54270003D16F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SWPopBubbleViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Snail.SWPopBubbleViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWPopBubbleView.app/SWPopBubbleView";
+			};
+			name = Debug;
+		};
+		07024EEA20CF54270003D16F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SWPopBubbleViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Snail.SWPopBubbleViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWPopBubbleView.app/SWPopBubbleView";
+			};
+			name = Release;
+		};
+		07024EEC20CF54270003D16F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SWPopBubbleViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Snail.SWPopBubbleViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SWPopBubbleView;
+			};
+			name = Debug;
+		};
+		07024EED20CF54270003D16F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SWPopBubbleViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Snail.SWPopBubbleViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SWPopBubbleView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07024EB320CF54270003D16F /* Build configuration list for PBXProject "SWPopBubbleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07024EE320CF54270003D16F /* Debug */,
+				07024EE420CF54270003D16F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07024EE520CF54270003D16F /* Build configuration list for PBXNativeTarget "SWPopBubbleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07024EE620CF54270003D16F /* Debug */,
+				07024EE720CF54270003D16F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07024EE820CF54270003D16F /* Build configuration list for PBXNativeTarget "SWPopBubbleViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07024EE920CF54270003D16F /* Debug */,
+				07024EEA20CF54270003D16F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07024EEB20CF54270003D16F /* Build configuration list for PBXNativeTarget "SWPopBubbleViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07024EEC20CF54270003D16F /* Debug */,
+				07024EED20CF54270003D16F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07024EB020CF54270003D16F /* Project object */;
+}
